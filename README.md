@@ -4,13 +4,13 @@ Video educativo animado (estilo 3Blue1Brown) que explica y demuestra visualmente
 
 ## Descripción
 
-Un **Suffix Tree** es un trie comprimido que almacena todos los sufijos de una cadena, permitiendo búsquedas de patrones en tiempo $O(m)$ donde $m$ es la longitud del patrón. Este proyecto implementa la estructura desde cero en Python puro y genera una animación profesional (de 4 a 5 minutos) con [Manim Community Edition](https://www.manim.community/) que demuestra la lógica paso a paso. Toda la animación está guiada por la estructura de datos real, sin "hardcoding" de los pasos.
+Un Suffix Tree es un trie comprimido que almacena todos los sufijos de una cadena, permitiendo búsquedas de patrones en tiempo $O(m)$ donde $m$ es la longitud del patrón. Este proyecto implementa la estructura desde cero en Python puro y genera una animación profesional (de 4 a 5 minutos) con [Manim Community Edition](https://www.manim.community/) que demuestra la lógica paso a paso. Toda la animación está guiada por la estructura de datos real, sin "hardcoding" de los pasos.
 
 La animación está dividida en las siguientes secciones:
 
 1. **Título del proyecto y Suffix Tree**
 2. **Introducción** (Qué es, Tipo de Dato Abstracto, uso práctico)
-3. **Inserción paso a paso** de la cadena `"BANANA$"` con construcción ingenua
+3. **Inserción paso a paso** de la cadena `"BANANA$"`
 4. **Búsqueda** (2 casos: "ANA" que se encuentra con éxito, y "BANS" que falla en medio del proceso)
 5. **Recorrido DFS** (mostrando paso por paso cómo se obtienen todos los sufijos en orden lexicográfico)
 6. **Casos Borde** (Cadena con trampa sin `$`, y cadena repetitiva `"AAAA$"` que genera ramas largas)
@@ -21,9 +21,9 @@ La animación está dividida en las siguientes secciones:
 
 | # | Nombre |
 |---|--------|
-| 1 | Axel Portal |
-| 2 | Dayron Cueva |
-| 3 | Mariel Reyes |
+| 1 | Axel Roberth Portal Ruiz |
+| 2 | Dayron Saiyuk Cueva Loayza |
+| 3 | Mariel Azucnea Reyes Neyra |
 
 ## Estructura del Proyecto
 
@@ -89,8 +89,4 @@ El flag `-p` abre el video automáticamente después de renderizar. El video se 
 
 ## Arquitectura del Código
 
-La lógica algorítmica emite **eventos paso a paso** mediante generadores (`yield`). La escena de Manim consume estos eventos y los traduce en animaciones visuales, garantizando que **toda la animación está impulsada por la lógica real** del algoritmo.
-
-## Licencia
-
-Proyecto académico — Universidad de Ingeniería y Tecnología (UTEC), 2026-2. Curso de Algoritmos y Estructuras de Datos (AED).
+La lógica algorítmica emite eventos paso a paso mediante generadores (`yield`). La escena de Manim consume estos eventos y los traduce en animaciones visuales, garantizando que toda la animación está impulsada por la lógica real del algoritmo.
