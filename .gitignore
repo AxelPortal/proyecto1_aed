@@ -1,0 +1,20 @@
+# Archivos cacheados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos multimedia generados por Manim
+media/
+*.mp4
+*.png
+*.gif
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
