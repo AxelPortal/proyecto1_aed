@@ -23,7 +23,7 @@ La animación está dividida en las siguientes secciones:
 |---|--------|
 | 1 | Axel Roberth Portal Ruiz |
 | 2 | Dayron Saiyuk Cueva Loayza |
-| 3 | Mariel Azucnea Reyes Neyra |
+| 3 | Mariel Azucena Reyes Neyra |
 
 ## Estructura del Proyecto
 
