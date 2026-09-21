@@ -4,8 +4,7 @@ Video educativo animado (estilo 3Blue1Brown) que explica y demuestra visualmente
 
 ## Descripción
 
-Un Suffix Tree es un trie comprimido que almacena todos los sufijos de una cadena, permitiendo búsquedas de patrones en tiempo $O(m)$ donde $m$ es la longitud del patrón. Este proyecto implementa la estructura desde cero en Python puro y genera una animación profesional (de 4 a 5 minutos) con [Manim Community Edition](https://www.manim.community/) que demuestra la lógica paso a paso. Toda la animación está guiada por la estructura de datos real, sin "hardcoding" de los pasos.
-
+Un Suffix Tree es un trie comprimido que almacena todos los sufijos de una cadena, permitiendo búsquedas de patrones en tiempo $O(m)$ donde $m$ es la longitud del patrón.
 La animación está dividida en las siguientes secciones:
 
 1. **Título del proyecto y Suffix Tree**
