@@ -41,7 +41,6 @@ proyecto1_aed/
 | **Python** | 3.10+ | [python.org](https://www.python.org/downloads/) |
 | **Manim Community Edition** | 0.18+ | `pip install manim` |
 | **FFmpeg** | 4.0+ | Incluido con Manim en Windows, o [ffmpeg.org](https://ffmpeg.org/) |
-| **LaTeX** (opcional) | — | [MiKTeX](https://miktex.org/) o [TeX Live](https://tug.org/texlive/) — solo si se usa `MathTex` |
 
 ### Instalación rápida
 
@@ -88,4 +87,4 @@ El flag `-p` abre el video automáticamente después de renderizar. El video se 
 
 ## Arquitectura del Código
 
-La lógica algorítmica emite eventos paso a paso mediante generadores (`yield`). La escena de Manim consume estos eventos y los traduce en animaciones visuales, garantizando que toda la animación está impulsada por la lógica real del algoritmo.
+La lógica algorítmica emite eventos paso a paso mediante generadores (`yield`). La escena de Manim consume estos eventos y los traduce en animaciones visuales.
