@@ -1,6 +1,6 @@
 # Proyecto 1 AED — Suffix Tree
 
-Video educativo animado (estilo 3Blue1Brown) que explica y demuestra visualmente el funcionamiento de la estructura de datos **Suffix Tree** (Árbol de Sufijos).
+Video educativo animado que explica y demuestra visualmente el funcionamiento de **Suffix Tree** (Árbol de Sufijos).
 
 ## Descripción
 
