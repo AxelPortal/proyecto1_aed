@@ -46,7 +46,7 @@ proyecto1_aed/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<TU-USUARIO>/proyecto1_aed.git
+git clone https://github.com/AxelPortal/proyecto1_aed.git
 cd proyecto1_aed
 
 # 2. Crear entorno virtual (recomendado)
